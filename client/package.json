@@ -1,0 +1,61 @@
+{
+  "name": "ucabmoji",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "bootstrap": ">=4.3.1",
+    "bootstrap-vue": "^2.0.0-rc.18",
+    "chart.js": "^2.7.3",
+    "firebase": "^5.7.0",
+    "tar": "^4.4.8",
+    "vee-validate": "^2.1.5",
+    "vue": "^2.5.17",
+    "vue-chartjs": "^3.4.0",
+    "vue-date-pick": "^1.0.5",
+    "vue-echarts": "^3.1.3",
+    "vue-router": "^3.0.1",
+    "vue-slider-component": "^2.8.3",
+    "vue2-animate": "^2.1.0",
+    "vuejs-datepicker": "^1.5.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.2.0",
+    "@vue/cli-plugin-eslint": "^3.2.0",
+    "@vue/cli-service": "^3.6.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0-0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.0.1",
+    "vue-template-compiler": "^2.5.17"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
